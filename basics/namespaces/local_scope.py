@@ -1,7 +1,9 @@
 def welcome():
-    x = "python"
+    x = "python"  # x is local variable
     print("Welcome:", x)
 
 
 welcome()
-print("x is:", x)
+
+# Here x is local variable and therefore cannot be accessed from outside.
+# print("x is:", x)
